@@ -42,4 +42,4 @@ function showThankYou(btnValue) {
   <h2>Thank You!</h2>
   <p>We appreciate you taking the time to give a   rating if you ever need more support, don't   hesitate to get in
   touch!</p>`
-} // creating the thank you pop dynamically
+} // creating the thank you popup dynamically
