@@ -79,11 +79,11 @@ p {
   color: $light-grey;
   border-radius: 50px;
   border: none;
-  min-height: 50px;
-  min-width: 50px;
+  height: 50px;
+  width: 50px;
   font-weight: 700;
-  text-anchor: middle;
   cursor: pointer;
+  text-align: center;
 }
 
 .value:hover {
@@ -91,7 +91,8 @@ p {
   color: $white;
 }
 
-.value-selected, .value-selected:hover {
+.value-selected,
+.value-selected:hover {
   background: $medium-grey;
   color: $white;
 }
@@ -100,7 +101,7 @@ p {
   cursor: pointer;
   color: $white;
   background: $orange;
-  border: transparent;
+  border: none;
   border-radius: 50px;
   letter-spacing: 1px;
   padding: 0.8rem 1rem;
@@ -110,11 +111,15 @@ p {
   width: 100%;
 }
 
-.btn:hover,
-.btn:active,
-.btn:focus {
+.btn:hover {
   background: $white;
   color: $orange;
+}
+
+button:focus {
+  outline: 5px dotted white;
+  border: 2px solid $dark-blue;
+  transition: none;
 }
 
 // THANK YOU POPUP
@@ -133,7 +138,7 @@ picture {
   margin-bottom: 1rem;
 }
 
-.rating  {
+.rating {
   background-color: hsl(0, 97%, 53%, 10%);
   border-radius: $radius;
   padding: 5px 11px;
