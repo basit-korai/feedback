@@ -2,7 +2,6 @@
 ::after,
 ::before {
   box-sizing: border-box;
-  transition: all 0.3s;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
@@ -52,6 +51,7 @@ h1 {
   background-color: $dark-blue;
   padding: 1.3rem;
   border-radius: $radius;
+  transition: padding 200ms ease-in;
 }
 
 .icon-star,
@@ -111,15 +111,19 @@ p {
   width: 100%;
 }
 
+button {
+  transition: 120ms ease-out;
+  transition-property: border, outline, background-color, color;
+}
+
 .btn:hover {
   background: $white;
   color: $orange;
 }
 
 button:focus {
-  outline: 2px solid white;
+  outline: 3.5px dotted white;
   border: 2px solid $dark-blue;
-  transition: none;
 }
 
 // THANK YOU POPUP
