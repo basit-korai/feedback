@@ -60,4 +60,4 @@ Users should be able to:
 ## Author
 - Basit Korai - a self-taught Full Stack Developer.
 - Frontend Mentor - [@basit-flash](https://www.frontendmentor.io/profile/basit-flash)
-- Github - [@basit-korai](https://github.com/basit-korai)
+- Github - [@basitkorai](https://github.com/basitkorai)
