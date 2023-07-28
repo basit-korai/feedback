@@ -58,6 +58,6 @@ Users should be able to:
 - Try to learn as much as you can from these resources to escape from **Tutorial Hell**.
 
 ## Author
-- Basit Korai - a self-taught Full Stack Developer.
+- [Basit Korai](https://basitkorai.netlify.app) - a self-taught Full Stack Developer.
 - Frontend Mentor - [@basit-flash](https://www.frontendmentor.io/profile/basit-flash)
 - Github - [@basitkorai](https://github.com/basitkorai)
